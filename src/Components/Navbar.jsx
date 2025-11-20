@@ -13,20 +13,20 @@ export default function Navbar() {
 
         <ul className='flex gap-5 items-center'>
             <li>
-                <a href="#!">Home</a>
+                <a className=' font-bold text-[#696871]' href="#!">Home</a>
             </li>
             <li>
-                <a href="#!">Features</a>
+                <a className=' font-bold text-[#696871]' href="#!">Features</a>
             </li>
             <li>
-                <a href="#!">Pricing</a>
+                <a className=' font-bold text-[#696871]' href="#!">Pricing</a>
             </li>
             <li>
-                <a href="#!">Blog</a>
+                <a className=' font-bold text-[#696871]' href="#!">Blog</a>
             </li>
         </ul>
 
-        <button>Get Started</button>
+        <button className='py-[19px] px-[60px] bg-[#FF7143]  '>Get Started</button>
       </nav>
     </div>
   )
