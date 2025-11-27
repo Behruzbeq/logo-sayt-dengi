@@ -4,7 +4,7 @@ import Logo from '../assets/img1.svg'
 export default function Navbar() {
   return (
     <div>
-      <nav className='container mx-auto flex justify-between items-center mt-4'>
+      <nav className='container  flex justify-between items-center mt-4'>
 
 
         <a href="#!">
